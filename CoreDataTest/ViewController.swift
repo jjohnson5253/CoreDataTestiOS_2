@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated)
         
         // Derived from: https://www.raywenderlich.com/173972/getting-started-with-core-data-tutorial-2
-        
+
         // Instantiate appDelegate and managedContext
         guard let appDelegate =
             UIApplication.shared.delegate as? AppDelegate else {
